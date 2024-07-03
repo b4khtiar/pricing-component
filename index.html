@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Pricing component with toggle</title>
+  <meta name="description" content="solution  of Pricing component with toggle challenge on Frontend Mentor">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <div class="wrap">
+      <h1>Our Pricing</h1>
+      <div class="switch">
+        <span>Annualy</span>
+        <label class="switch__toggle" aria-label="Toggle monthly">
+          <input type="checkbox" id="payment-type" name="payment-type">
+          <span class="slider"></span>
+        </label>
+        <span>Monthly</span>
+      </div>
+      <div class="pricing__container">
+        <article class="pricing__card">
+          <h2>Basic</h2>
+          <strong class="price__annual"><span class="currency">&dollar;</span>199.99</strong>
+          <strong class="price__month"><span class="currency">&dollar;</span>19.99</strong>
+          <ul class="features">
+            <li>500 GB Storage</li>
+            <li>2 Users Allowed</li>
+            <li>Send up to 3 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </article>
+        <article class="pricing__card highlight">
+          <h2>Professional</h2>
+          <strong class="price__annual"><span class="currency">&dollar;</span>249.99</strong>
+          <strong class="price__month"><span class="currency">&dollar;</span>24.99</strong>
+          <ul class="features">
+            <li>1 TB Storage</li>
+            <li>5 Users Allowed</li>
+            <li>Send up to 10 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </article>
+        <article class="pricing__card">
+          <h2>Master</h2>
+          <strong class="price__annual"><span class="currency">&dollar;</span>399.99</strong>
+          <strong class="price__month"><span class="currency">&dollar;</span>39.99</strong>
+          <ul class="features">
+            <li>2 TB Storage</li>
+            <li>10 Users Allowed</li>
+            <li>Send up to 20 GB</li>
+          </ul>
+          <button>Learn More</button>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/b4khtiar">Y.Bakhtiar</a>.
+  </footer>
+</body>
+
+</html>
